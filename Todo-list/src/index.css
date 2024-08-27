@@ -1,0 +1,86 @@
+body {
+  background-color: bisque;
+}
+
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+.todo-list {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: #ffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.add-bttn {
+  background-color: #43d55e;
+}
+
+.delete-bttn {
+  background-color: #fa0101;
+}
+
+.Move-bttn {
+  background-color: aqua;
+  color: #1a1a1a;
+}
+
+.input-text {
+  align-items: center;
+  align-content: center;
+  margin: 10px 50px;
+  padding: 10px auto;
+}
+
+input[type="text"] {
+  font-size: 1.7rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%, 0%, 0.575);
+  border-radius: 5px;
+  color: #1a1a1a;
+  text-align: center;
+  margin-right: 10px;
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 10px;
+  border: 3px solid hsl(0, 0%, 85%, 0.75);
+  border-radius: 5px;
+  display: flex;
+}
+
+.text {
+  flex: 1;
+  text-align: justify;
+}
+
+.delete-bttn, .Move-bttn {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
